@@ -13,7 +13,6 @@ interface ApiResponse<T> { // response from endpoint
 type TodoResponseType = TodoTask[] | string; 
 
 interface TodoOperations { 
-  API_ENDPOINT: string;
   fetchAll(): Promise<TodoResponseType>;
   fetchById(id: number): Promise<TodoResponseType>;
   createNew(
@@ -29,7 +28,7 @@ interface TodoOperations {
 }
 
 class Todo implements TodoOperations {
-  readonly API_ENDPOINT: string;
+  private readonly API_ENDPOINT: string;
   constructor() {
     this.API_ENDPOINT = "https://todo-endpoint.vercel.app/todos/";
   }
