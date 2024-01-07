@@ -1,0 +1,17 @@
+{
+  "name": "todo-wrapper",
+  "version": "1.0.0",
+  "description": "A simple wrapper wrapper for accessing todo endpoint",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
