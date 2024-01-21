@@ -1,4 +1,3 @@
-![Buzzleague-Banner](https://ik.imagekit.io/lovelin/BuzzLeague/Readme-banner?updatedAt=1705848968596)
 
 # Todo-Endpoint Wrapper
 
